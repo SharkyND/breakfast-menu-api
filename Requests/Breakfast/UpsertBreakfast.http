@@ -1,0 +1,19 @@
+@id=53299255-ee62-4620-a950-1a9d103bb145
+PUT https://localhost:7240/breakfast/{{id}}
+Content-Type: application/json
+
+{
+    "name": "Vegan",
+    "description": "Something",
+    "startDateTime": "2022-04-08T08:00:00",
+    "endDateTime": "2022-04-08T11:00:00",
+    "savory": [
+        "Oatmeal",
+        "Avocado Toast",
+        "Omelette",
+        "Salad"
+    ],
+    "Sweet": [
+        "Cookie"
+    ]
+}
