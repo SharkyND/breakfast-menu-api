@@ -2,14 +2,14 @@ namespace BuberBreakfast.Models;
 
 public class Breakfast
 {
-  public Guid Id { get; }
-  public string Name { get; }
-  public string Description { get; }
-  public DateTime StartDateTime { get; }
-  public DateTime EndDateTime { get; }
-  public DateTime LastModifiedDateTime { get; }
-  public List<string> Savory { get; }
-  public List<string> Sweet { get; }
+  public Guid Id { get; set; }
+  public string Name { get; set; }
+  public string Description { get; set; }
+  public DateTime StartDateTime { get; set; }
+  public DateTime EndDateTime { get; set; }
+  public DateTime LastModifiedDateTime { get; set; }
+  public string Savory { get; set; }
+  public string Sweet { get; set; }
 
   public Breakfast(
     Guid id,
@@ -18,8 +18,8 @@ public class Breakfast
     DateTime startDateTime,
     DateTime endDateTime,
     DateTime lastModifiedDateTime,
-    List<string> savory,
-    List<string> sweet)
+    string savory,
+    string sweet)
   {
     // enforce logic
     Id = id;

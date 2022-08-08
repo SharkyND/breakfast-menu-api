@@ -6,13 +6,6 @@ Content-Type: application/json
     "description": "Something",
     "startDateTime": "2022-04-08T08:00:00",
     "endDateTime": "2022-04-08T11:00:00",
-    "savory": [
-        "Oatmeal",
-        "Avocado Toast",
-        "Omelette",
-        "Salad"
-    ],
-    "Sweet": [
-        "Cookie"
-    ]
+    "savory":"Salad"
+    "Sweet": "Cookie"
 }
